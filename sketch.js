@@ -41,17 +41,15 @@ function preload() {
  
 function setup( ) {
    createCanvas(1100, 600)
-if (theme.isLoaded()) {
+amplitude = new p5.Amplitude()
+
+}
+
+function mousePressed() {
+  if (theme.isLoaded()) {
     loadTime = millis()
       theme.play()
      }
-
-
-amplitude = new p5.Amplitude()
-
-
-
-
 }
 
 function draw( ) {
