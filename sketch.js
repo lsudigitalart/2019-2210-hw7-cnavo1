@@ -50,12 +50,6 @@ userStartAudio()
 amplitude = new p5.Amplitude()
 }
 
-// function mousePressed(){
-//     if (theme.isLoaded()) {
-//         loadTime = millis()
-//           theme.play()
-//          }
-// }
 
 function draw( ) {
     playTime = millis() - loadTime;
