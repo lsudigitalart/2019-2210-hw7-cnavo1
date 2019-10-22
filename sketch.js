@@ -45,7 +45,7 @@ function setup( ) {
 amplitude = new p5.Amplitude()
 }
 
-function mousePressed(){
+function keyPressed(){
     if (theme.isLoaded()) {
         loadTime = millis()
           theme.play()
